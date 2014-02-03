@@ -45,10 +45,6 @@
 #define KNOB_PIN 0       //Horizontal Joystick Analog Pin
 #define SLIDER_PIN 1       //Vertical Joystick Analog Pin 
 
-//generic deadband limits - not all joystics will center at 512, so these limits remove 'drift' from joysticks that are off-center.
-#define DEADBANDLOW 482   //decrease this value if drift occurs, increase it to increase sensitivity around the center position
-#define DEADBANDHIGH 542  //increase this value if drift occurs, decrease it to increase sensitivity around the center position
-
 //max/min puse values in microseconds to send to the servo
 #define PAN_MIN      600  //full counterclockwise for RobotGeek 180 degree servo
 #define PAN_MAX      2400 //full clockwise for RobotGeek 180 degree servo
